@@ -15,4 +15,4 @@ db.connect();
 
 require('./routes')(app);
 
-app.listen(port, () => console.log(`Server started at port ${PORT}`));
+app.listen(port, () => console.log(`Server started at port ${port}`));
