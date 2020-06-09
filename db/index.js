@@ -6,6 +6,7 @@ const COLLECTIONS = {
     SHOP: 'shop',
 };
 
+
 const client = new MongoClient(MONGO_URL, { useUnifiedTopology: true });
 
 module.exports = {
