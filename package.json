@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "reseed": "mongoimport --jsonArray --db homework --collection shop --drop --file ./db/seed/shop.json"
   },
   "keywords": [],
